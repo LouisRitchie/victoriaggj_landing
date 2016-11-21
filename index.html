@@ -1,0 +1,78 @@
+ <!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>GGJ 2016</title>
+    <link rel="stylesheet" href="jquery.fullPage.css" type="text/css">
+    <link rel="stylesheet" href="main.css" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Bungee+Inline" rel="stylesheet">
+
+    <script
+      src="https://code.jquery.com/jquery-3.1.1.min.js"
+      integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+      crossorigin="anonymous"></script>
+    <script
+      src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"
+      integrity="sha256-VazP97ZCwtekAsvgPBSUwPFKdrwD3unUfSGVYrahUqU="
+      crossorigin="anonymous"></script>
+    <script src="jquery.fullPage.min.js"></script>
+    <script type="text/javascript">
+
+      $(document).ready(function() {
+        $('#fullpage').fullpage({
+          sectionsColor: [' #feffe6', '#b3deff', '#e9d8f3', '#b3deff', '#e9d8f3'],
+           anchors: ['hero', 'about', 'schedule', 'rules', 'contact'],
+          menu: '#menu',
+          scrollingSpeed: 1000
+        });
+
+      });
+
+    </script>
+  </head>
+  <body>
+    <div id="fullpage">
+      <div class="section" id="section0">
+        <div class="hero">
+          <img src="logo-full.png" alt="ggj victoria logo">
+        </div>
+      </div>
+      <div class="section" id="section1">
+        <div class="about">
+<h1>The University of Victoria Game Development Club presents the 2017 Global Game Jam!</h1>
+
+<h2>The Global Game Jam is a 48-hour game jam hosted in over 600 locations in over 90 countries worldwide. On January 20th, 2017, thousands of game developers, programmers, artists, and musicians come together across the globe to create thousands of unique games - all over the course of one weekend!</h2>
+
+<h2>This year, GGJ is happening right in the heart of Downtown Victoria! Our own Jam Site is being held in the Rocket Lounge inside Fort Tectoria on 777 Fort St.</h2>
+
+<h2>Free Food. Endless Games. Your own GGJ t-shirt. Long nights, new ideas, and collaborating on something unique. This is the Global Game Jam.</h2>
+
+<h2><a href="https://www.eventbrite.ca/payment-options?eid=29560987710">Register now</a> and be a part of the action!</h2>
+        </div>
+      </div>
+      <div class="section" id="section2">
+        <div class="schedule">
+        schedule
+        </div>
+      </div>
+      <div class="section" id="section3">
+        <div class="rules">
+          rules
+        </div>
+      </div>
+      <div class="section" id="section4">
+        <div class="contact">
+        contact
+Louis Ritchie is a Mathematics and Computer Science student at uVic. He loves games, UNIX, coffee, and bacon. You and him will get along great, I promise.
+
+If you have any questions for Louis, email him at louiscritchie@gmail.com.
+          <ul>
+            <li>Ph: 250 299 6100</li>
+            <li>email: louiscritchie@gmail.com</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
+
