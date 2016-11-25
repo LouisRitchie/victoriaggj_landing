@@ -3,9 +3,10 @@
   <head>
     <meta charset="UTF-8">
     <title>GGJ 2016</title>
-    <link rel="stylesheet" href="jquery.fullPage.css" type="text/css">
-    <link rel="stylesheet" href="main.css" type="text/css">
+
     <link href="https://fonts.googleapis.com/css?family=Bungee+Inline" rel="stylesheet">
+    <link rel="stylesheet" href="node_modules/fullpage.js/dist/jquery.fullpage.css" type="text/css">
+    <link rel="stylesheet" href="styles/main.css" type="text/css">
 
     <script
       src="https://code.jquery.com/jquery-3.1.1.min.js"
@@ -15,49 +16,10 @@
       src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"
       integrity="sha256-VazP97ZCwtekAsvgPBSUwPFKdrwD3unUfSGVYrahUqU="
       crossorigin="anonymous"></script>
-    <script src="jquery.fullPage.min.js"></script>
-    <script type="text/javascript">
-
-      $(document).ready(function() {
-        $('#fullpage').fullpage({
-          sectionsColor: ['#feffe6', '#b3deff', '#e9d8f3', '#b3deff', '#e9d8f3'],
-           anchors: ['hero', 'about', 'schedule', 'rules', 'contact'],
-          menu: '#menu',
-          scrollingSpeed: 1000
-        });
-
-      });
-
-      function makeTimer() {
-
-        var endTime = new Date("Jan 20, 2017 14:00:00 PDT");            
-        var endTime = (Date.parse(endTime)) / 1000;
-
-        var now = new Date();
-        var now = (Date.parse(now) / 1000);
-
-        var timeLeft = endTime - now;
-
-        var days = Math.floor(timeLeft / 86400); 
-        var hours = Math.floor((timeLeft - (days * 86400)) / 3600);
-        var minutes = Math.floor((timeLeft - (days * 86400) - (hours * 3600 )) / 60);
-        var seconds = Math.floor((timeLeft - (days * 86400) - (hours * 3600) - (minutes * 60)));
-
-        if (hours < "10") { hours = "0" + hours; }
-        if (minutes < "10") { minutes = "0" + minutes; }
-        if (seconds < "10") { seconds = "0" + seconds; }
-
-        $("#days").html(days + "<span>Days</span>");
-        $("#hours").html(hours + "<span>Hours</span>");
-        $("#minutes").html(minutes + "<span>Minutes</span>");
-        $("#seconds").html(seconds + "<span>Seconds</span>");     
-
-        }
-
-      setInterval(function() { makeTimer(); }, 1000);
-
-    </script>
+    <script src="node_modules/fullpage.js/dist/jquery.fullpage.min.js"></script>
+    <script src="scripts/start-fullpage.js" type="text/javascript"></script>
   </head>
+
   <body>
     <div id="fullpage">
       <div class="section" id="section0">
@@ -67,22 +29,9 @@
       </div>
       <div class="section" id="section1">
         <div class="about">
-
-  <h2>The University of Victoria Game Development Club presents the</h2>
-  <h2>2017 Global Game Jam!</h2>
-  <h2>The Global Game Jam is a 48-hour game jam </h2>
-  <h2>hosted in over 600 locations </h2>
-  <h2>in over 90 countries worldwide. </h2>
-  <h2>On January 20th, 2017, thousands of game developers, programmers, </h2>
-  <h2>artists and musicians come together to create thousands of unique games - all over the course of one weekend!</h2>
-  <h2>This year, GGJ is happening right in the heart of Downtown Victoria, in the Rocket Lounge inside Fort Tectoria on 777 Fort St.</h2>
-  <h2>Free Food.</h2> 
-  <h2>Endless Games. </h2>
-  <h2>Your own GGJ t-shirt. </h2>
-  <h2>Long nights, new ideas, and collaborating on something unique. </h2>
-  <h2>This is the Global Game Jam.</h2>
-  <h2><a href="https://www.eventbrite.ca/payment-options?eid=29560987710">Register now</a> and be a part of the action!</h2>
-
+          <p>
+The University of Victoria Game Development Club presents the 2017 Global Game Jam! The Global Game Jam is a 48-hour game jam hosted in over 600 locations in over 90 countries worldwide. On January 20th, 2017, thousands of game developers, programmers, artists and musicians come together to create thousands of unique games - all over the course of one weekend! This year, GGJ is happening right in the heart of Downtown Victoria, in the Rocket Lounge inside Fort Tectoria on 777 Fort St. Free Food. Endless Games. Your own GGJ t-shirt. Long nights, new ideas, and collaborating on something unique. This is the Global Game Jam. <a href="https://www.eventbrite.ca/payment-options?eid=29560987710">Register now</a> and be a part of the action! 
+          </p>
         </div>
       </div>
       <div class="section" id="section2">
@@ -94,13 +43,9 @@
           <div id="seconds"></div>
           </div>
         </div>
-      </div>
-      <div class="section" id="section3">
         <div class="rules">
           rules
         </div>
-      </div>
-      <div class="section" id="section4">
         <div class="contact">
         contact
 Louis Ritchie is a Mathematics and Computer Science student at uVic. He loves games, UNIX, coffee, and bacon. You and him will get along great, I promise.
@@ -115,4 +60,3 @@ If you have any questions for Louis, email him at louiscritchie@gmail.com.
     </div>
   </body>
 </html>
-
