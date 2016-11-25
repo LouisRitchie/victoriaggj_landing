@@ -1,65 +1,31 @@
 body {
   font-family: 'Bungee Inline', cursive;
   font-size: 16px;
+  color: white;
 }
 
 .hero {
-  display: flex;
-  content: row nowrap;
-  justify-content: center;
-}
-
-@media (max-width: 1920px) { 
-  .hero img {
-    height: 720px;
-    width: 1280px;
-  }
-}
-
-@media (max-width: 1280px) {
-  .hero img {
-    height: 540px;
-    width: 960px;
-  }
-}
-
-@media (max-width: 960px) {
-  .hero img {
-    height: 360px;
-    width: 640px;
-  }
-}
-
-@media (max-width: 640px) {
-  .hero img {
-    height: 270px;
-    width: 480px;
-  }
-}
-
-.about {
   display: flex;
   flex-flow: column nowrap;
   justify-content: center;
   align-items: center;
 }
 
-.about span {
-  display: flex;
-  flex-flow: column nowrap;
-  justify-content: center;
-  align-content: flex-start;
-  padding: 20px 0 60px 0;
+.hero h1 {
+  font-size: 4em;
 }
 
- h2 {
-  display: inline;
-  flex: 0 1 auto;
-  border: 2px solid rgba(0,0,0,0);
-  border-radius: 1px;
-  background-color: #feffe6;
-  width: auto;
-  padding: 0 6px;
-  margin: 3px;
-  text-align: center;
+.hero h2 {
+  font-size: 3em;
+}
+
+.hero img {
+  height: 58%;
+  width: 58%;
+}
+
+.hero div {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-around;
 }
