@@ -32,4 +32,4 @@ function makeTimer() {
   $("#seconds").html(seconds + "<span>Seconds</span>");     
 }
 
-setInterval(function() { makeTimer(); }, 1000
+setInterval(function() { makeTimer(); }, 1000)
