@@ -7,7 +7,7 @@ body {
 .hero {
   display: flex;
   flex-flow: column nowrap;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
 }
 
@@ -16,58 +16,74 @@ body {
   flex-flow: column nowrap;
   justify-content: space-around;
   align-items: center;
+  opacity: 0.9
 }
 
 .hero span h1 {
   font-size: 3.5em;
   align-self: flex-start;
+  margin-bottom: 5px;
 }
 
 .hero span h2 {
   font-size: 2.2em;
+  margin: 5px;
 }
 
-.hero img {
-  height: 58%;
-  width: 58%;
+.hero > img {
+  height: 716px;
+  width: 684px;
 }
 
 .hero div {
   display: flex;
   flex-flow: row nowrap;
-  justify-content: space-around;
+  justify-content: center;
+}
+
+.logo-kano, .logo-uvgd, .logo-igda, .logo-codename {
+  opacity: 0.8;
+}
+.logo-kano:hover, .logo-uvgd:hover, .logo-igda:hover, .logo-codename:hover {
+  opacity: 1;
 }
 
 .logo-codename {
+  width: 900px;
+  height: 300px;
 }
-
 .logo-kano {
+  width: 700px;
+  height: 200px;
 }
-
-@media (max-width: 1920px) { 
-  .hero img {
-    height: 720px;
-    width: 1280px;
-  }
+.logo-igda {
+  width: 700px;
+  height: 200px;
 }
-
-@media (max-width: 1280px) {
-  .hero img {
-    height: 540px;
-    width: 960px;
-  }
+.logo-uvgd {
+  width: 700px;
+  height: 200px;
 }
 
 @media (max-width: 960px) {
-.hero img {
-height: 360px;
-width: 640px;
-}
+  .logo-codename {
+  }
+  .logo-kano {
+  }
+  .logo-igda {
+  }
+  .logo-uvgd {
+  }
 }
 
 @media (max-width: 640px) {
-.hero img {
-height: 270px;
-width: 480px;
+  .logo-codename {
+  }
+  .logo-kano {
+  }
+  .logo-igda {
+  }
+  .logo-uvgd {
+  }
 }
 }
