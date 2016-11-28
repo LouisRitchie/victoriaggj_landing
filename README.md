@@ -1,7 +1,7 @@
 # 2017 Global Game Jam
 ## Victoria, BC
 
-### [http://victoriaggj.com](www.victoriaggj.com)
+### [victoriaggj.com](https://victoriaggj.com)
 
 This is the landing page for the 2017 Global Game Jam hosted at uvic. If you want to add something to the page, you can make a pull request.
 
