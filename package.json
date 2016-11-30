@@ -1,0 +1,25 @@
+{
+  "name": "victoriaggj_landing",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "fullpage.js": "^2.8.9"
+  },
+  "devDependencies": {
+    "fullpage": "^1.4.2"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/louisritchie/victoriaggj_landing.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/louisritchie/victoriaggj_landing/issues"
+  },
+  "homepage": "https://github.com/louisritchie/victoriaggj_landing#readme"
+}
