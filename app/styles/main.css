@@ -89,6 +89,7 @@ body {
 }
 
 .tg {
+  font-size: 12px;
   margin: 20px;
   color: white;
   border-collapse:collapse;
@@ -96,14 +97,36 @@ body {
 }
 
 .tg td {
-  padding:10px 10px;
-  border: 1px solid white;
+  width: 50px;
+  padding:7px;
   overflow:hidden;
   word-break:normal;
+  border: 1px dotted gray;
+}
+
+.tg tr:last-child td {
+  border-bottom: none;
+
+}
+
+.tg tr:first-child {
+  border-top: 1px solid white;
+}
+
+.tg tr:last-child {
+  border-bottom: 1px solid white;
+}
+
+.tg td:first-child {
+  border-left: 1px solid white;
+}
+
+.tg td:last-child {
+  border-right: 1px solid white;
 }
 
 .tg th {
-  padding:20px 20px;
+  padding:7px;
   border: 1px solid white;
   overflow:hidden;
   word-break:normal;
