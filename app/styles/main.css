@@ -210,3 +210,36 @@ body {
   vertical-align:top;
 }
 
+.contact {
+  font-size: 0.9em;
+  flex: 1 1 auto;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: space-around;
+  align-items: center;
+  position: relative;
+}
+
+.press-kit {
+  height: 76px;
+  width: 319px; 
+}
+
+.contact-blurb {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+  width: 900px;
+}
+
+.contact-words {
+  height: 76px;
+  width: 250px;
+}
+
+.cat {
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+}
