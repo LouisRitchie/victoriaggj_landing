@@ -6,15 +6,14 @@ body {
 }
 
 .logo-kano, .logo-uvgd, .logo-igda, .logo-codename {
-  opacity: 0.8;
+  opacity: 0.5;
 }
 .logo-kano:hover, .logo-uvgd:hover, .logo-igda:hover, .logo-codename:hover {
-  opacity: 1;
+  opacity: 0.7;
 }
-
 .logo-codename {
-  width: 630px;
-  height: 210px;
+  width: 511px;
+  height: 153px;
 }
 .logo-kano {
   width: 280px;
@@ -56,10 +55,12 @@ body {
 }
 
 .hero {
+  margin: 0.4em;
   display: flex;
   flex-flow: column nowrap;
-  justify-content: center;
-  align-self: center;
+  justify-content: space-between;
+  text-align: center;
+  color: #919292;
 }
 
 .about {
@@ -71,6 +72,10 @@ body {
 
 .about p {
   margin: 40px;
+}
+
+.register-link {
+  color: #fff024
 }
 
 .schedule {
