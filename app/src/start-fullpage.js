@@ -25,10 +25,10 @@ function makeTimer() {
   if (minutes < "10") { minutes = "0" + minutes; }
   if (seconds < "10") { seconds = "0" + seconds; }
 
-  $("#days").html("<span>Global Game Jam starts in&nbsp;</span>" + days + "<span>&nbsp;Days,&nbsp;</span>");
+  $("#days").html("<span>starts in&nbsp;</span>" + days + "<span>&nbsp;Days,&nbsp;</span>");
   $("#hours").html(" " + hours + "<span>&nbsp;Hours,&nbsp;</span>");
   $("#minutes").html(" " + minutes + "<span>&nbsp;Minutes,&nbsp;</span>");
-  $("#seconds").html("and " + seconds + "<span>&nbsp;Seconds!</span>");     
+  $("#seconds").html("and " + seconds + "<span>&nbsp;Seconds</span>");     
 }
 
 setInterval(function() { makeTimer(); }, 1000)

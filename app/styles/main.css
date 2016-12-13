@@ -87,9 +87,6 @@ body {
   align-items: center;
 }
 
-.how-do-i-sign-up {
-}
-
 .registration-fee {
   color: green;
 }
@@ -113,22 +110,30 @@ body {
 .schedule {
   display: flex;
   flex-flow: column nowrap;
-  justify-content: space-around;
+  justify-content: center;
   align-items: center;
 }
 
-.contact {
-
-}
-
 #timer {
+  padding-left: 20px;
+  font-size: 0.7em;
   display: flex;
   flex-flow: row nowrap;
   justify-content: space-between;
+  align-items: flex-end;
+  align-self: flex-start;
 }
 
 #timer div {
+  line-height: 0.7em;
+  height: 0.7em;
 }
+
+.schedule-heading {
+  font-size: 2.5em;
+  align-self: stretch;
+}
+
 
 .tg {
   font-size: 0.6em;
