@@ -23,9 +23,9 @@
 }
 
 #section0{
-  background: -webkit-gradient(linear, top left, bottom left, from(black), to(#252829));
-  background: -webkit-linear-gradient(black, #252829);
-  background: linear-gradient(black,#252829);
+  background: -webkit-gradient(linear, top left, bottom left, from(#181a1b), to(#252829));
+  background: -webkit-linear-gradient(#181a1b, #252829);
+  background: linear-gradient(#181a1b,#252829);
 }
 
 #section1{
@@ -33,13 +33,13 @@
 }
 
 #section2{
-  background: -webkit-gradient(linear, top left, bottom left, from(#252829), to(#555b5e));
-  background: -webkit-linear-gradient(#252829, #555b5e);
-  background: linear-gradient(#252829,#555b5e);
+  background: -webkit-gradient(linear, top left, bottom left, from(#252829), to(#3d4143));
+  background: -webkit-linear-gradient(#252829, #3d4143);
+  background: linear-gradient(#252829,#3d4143);
 }
 
 #section3{
-
+  background-color: #3d4143;
 }
 
 .hero {
