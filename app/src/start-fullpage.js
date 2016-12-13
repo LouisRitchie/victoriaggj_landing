@@ -1,6 +1,5 @@
 $(document).ready(function() {
   $('#fullpage').fullpage({
-    sectionsColor: ['black', 'black', 'black'],
     anchors: ['hero', 'about', 'schedule'],
     menu: '#menu',
     scrollingSpeed: 1000
