@@ -43,17 +43,22 @@
 }
 
 .hero {
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+}
+
+.about {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.schedule {
 
 }
 
-.hero {
-
-}
-
-.hero {
-
-}
-
-.hero {
+.contact {
 
 }
