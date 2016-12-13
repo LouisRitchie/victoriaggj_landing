@@ -70,12 +70,28 @@ body {
   align-items: center;
 }
 
-.about p {
-  margin: 40px;
+.blurb {
+  width: 1000px;
+}
+
+.registration-fee {
+  color: green;
 }
 
 .register-link {
-  color: #fff024
+  underscore: none;
+  color: black;
+  font-size: 2em;
+  padding: 10px 25px;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+  border: 1px solid #636F8F;
+  background: #FFF024;
+}
+
+.register-link:hover {
+  color: #009CFF;
 }
 
 .schedule {
@@ -145,3 +161,4 @@ body {
 .tg .tg-yw4l {
   vertical-align:top;
 }
+
