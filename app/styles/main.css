@@ -5,29 +5,6 @@ body {
   color: white;
 }
 
-.logo-kano, .logo-uvgd, .logo-igda, .logo-codename {
-  opacity: 0.5;
-}
-.logo-kano:hover, .logo-uvgd:hover, .logo-igda:hover, .logo-codename:hover {
-  opacity: 0.7;
-}
-.logo-codename {
-  width: 511px;
-  height: 153px;
-}
-.logo-kano {
-  width: 280px;
-  height: 80px;
-}
-.logo-igda {
-  width: 280px;
-  height: 80px;
-}
-.logo-uvgd {
-  width: 280px;
-  height: 80px;
-}
-
 .fp-tableCell {
   display: flex;
   justify-content: center;
@@ -60,18 +37,57 @@ body {
   flex-flow: column nowrap;
   justify-content: space-between;
   text-align: center;
-  color: #919292;
+  color: #888;
 }
 
+.logo-kano, .logo-uvgd, .logo-igda, .logo-codename {
+  opacity: 0.4;
+}
+.logo-kano:hover, .logo-uvgd:hover, .logo-igda:hover, .logo-codename:hover {
+  opacity: 0.6;
+}
+.logo-codename {
+  width: 511px;
+  height: 153px;
+}
+.logo-kano {
+  width: 280px;
+  height: 80px;
+}
+.logo-igda {
+  width: 280px;
+  height: 80px;
+}
+.logo-uvgd {
+  width: 280px;
+  height: 80px;
+}
+
+
+
+
 .about {
+  font-size: 0.9em;
   display: flex;
   flex-flow: column nowrap;
   justify-content: space-around;
   align-items: center;
+  text-align: justify;
 }
 
 .blurb {
-  width: 1000px;
+  width: 900px;
+}
+
+.register {
+  flex: 0 0 0;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.how-do-i-sign-up {
 }
 
 .registration-fee {
