@@ -31,20 +31,39 @@ body {
   background-color: #3d4143;
 }
 
+
+
+
+
+
+
+
+
+
+
+
 .hero {
+  flex: 1 1 auto;
   margin: 0.4em;
   display: flex;
   flex-flow: column nowrap;
   justify-content: space-between;
+  align-items: center;
   text-align: center;
-  color: #888;
+}
+
+.images {
+  flex: 1 1 auto;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-around;
+  align-items: center;
+  align-self: stretch;
 }
 
 .logo-kano, .logo-uvgd, .logo-igda, .logo-codename {
-  opacity: 0.4;
 }
 .logo-kano:hover, .logo-uvgd:hover, .logo-igda:hover, .logo-codename:hover {
-  opacity: 0.6;
 }
 .logo-codename {
   width: 511px;
@@ -59,9 +78,17 @@ body {
   height: 80px;
 }
 .logo-uvgd {
-  width: 280px;
-  height: 80px;
+  width: 210px;
+  height: 60px;
+  margin-bottom: -30px;
 }
+.logo {
+  margin-left: 1em;
+}
+
+
+
+
 
 
 
