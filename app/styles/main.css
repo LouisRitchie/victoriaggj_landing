@@ -22,6 +22,12 @@
   height: 80px;
 }
 
+.fp-tableCell {
+  display: flex;
+  justify-content: center;
+  align-items: stretch;
+}
+
 #section0{
   background: -webkit-gradient(linear, top left, bottom left, from(#181a1b), to(#252829));
   background: -webkit-linear-gradient(#181a1b, #252829);
@@ -45,13 +51,14 @@
 .hero {
   display: flex;
   flex-flow: column nowrap;
-  align-items: center;
+  justify-content: center;
+  align-self: center;
 }
 
 .about {
   display: flex;
   flex-flow: column nowrap;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
 }
 
@@ -61,4 +68,17 @@
 
 .contact {
 
+}
+
+.tg {
+  border-collapse:collapse;border-spacing:0;
+}
+.tg td {
+  font-family:Arial, sans-serif;font-size:14px;padding:20px 20px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;
+}
+.tg th {
+  font-family:Arial, sans-serif;font-size:14px;font-weight:normal;padding:20px 20px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;
+}
+.tg .tg-yw4l {
+  vertical-align:top
 }
