@@ -239,14 +239,6 @@ div, img, table {
   position: relative;
 }
 
-.contact p {
-  background-color: rgba(50, 50, 50, 0.7);
-  padding: 0.8em;
-  border: 2px outset #1E6999;
-  border-radius: 9px;
-  z-index: 2;
-}
-
 .press-kit {
   height: 76px;
   width: 319px; 
@@ -264,11 +256,3 @@ div, img, table {
   height: 76px;
   width: 250px;
 }
-
-.cat {
-  position: absolute;
-  bottom: 0px;
-  right: 0px;
-  z-index: 0;
-}
-
