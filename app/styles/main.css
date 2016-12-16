@@ -132,7 +132,8 @@ div, img, table {
   underscore: none;
   color: black;
   font-size: 2em;
-  padding: 10px 25px;
+  margin: 25px;
+  padding: 25px;
   -moz-border-radius: 3px;
   -webkit-border-radius: 3px;
   border-radius: 3px;
@@ -147,34 +148,43 @@ div, img, table {
 .schedule {
   display: flex;
   flex-flow: column nowrap;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
 }
 
-#timer {
-  padding-left: 20px;
-  font-size: 0.7em;
-  display: flex;
-  flex-flow: row nowrap;
-  justify-content: space-between;
-  align-items: flex-end;
-  align-self: flex-start;
+@media (max-width: 910px) {
+  .schedule {
+    font-size: 10px;
+  }
 }
 
-#timer div {
-  line-height: 0.7em;
-  height: 0.7em;
+#timer {
+  align-self: flex-start;
+
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: flex-end;
+  align-items: flex-start;
+
+  padding-left: 20px;
+  font-size: 0.7em;
+}
+
+#timer div div {
 }
 
 .schedule-heading {
+  min-height: 40px;
   font-size: 2.5em;
-  align-self: stretch;
 }
 
+.schedule-starts-in {
+  align-self: flex-start;
+}
 
 .tg {
-
-  font-size: 0.6em;
+  font-size: 0.5em;
+  line-height: 2em;
   margin: 20px;
   color: white;
   border-collapse:collapse;
@@ -182,8 +192,6 @@ div, img, table {
 }
 
 .tg td {
-  width: 50px;
-  padding:7px;
   overflow:hidden;
   word-break:normal;
   border: 1px dotted gray;
