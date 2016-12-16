@@ -5,6 +5,10 @@ body {
   color: white;
 }
 
+div, img, table {
+  max-width: 100%;
+}
+
 .fp-tableCell {
   display: flex;
   justify-content: center;
@@ -45,25 +49,38 @@ body {
 
 .hero-uvgd-presents {
   flex: 1 4 auto;
+  max-width: 300px;
 }
 
 .hero-ggj-logo {
-  flex: 5 1 auto;
+  flex: 1 1 auto;
+  padding: 2em;
 }
 
 .hero-sponsored-by {
   flex: 1 1 auto;
-
 }
 
 .hero-sponsor-logos {
-  flex: 1 1 auto;
+  flex: 1 4 0;
 
   display: flex;
   flex-flow: row nowrap;
-  justify-content: space-around;
+  justify-content: center;
   align-items: center;
-  align-self: stretch;
+  align-self: center;
+}
+
+.hero-sponsor-logos * {
+  padding: 1em;
+}
+
+.hero-logo-kano, .hero-logo-igda  {
+  max-width: 200px;
+}
+
+.hero-logo-codename {
+  max-width: 400px;
 }
 
 .logo {
@@ -72,6 +89,7 @@ body {
 
 .about {
   font-size: 0.9em;
+
   display: flex;
   flex-flow: column nowrap;
   justify-content: space-around;
@@ -81,6 +99,21 @@ body {
 
 .blurb {
   width: 900px;
+  margin: 7px;
+
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.blurb-text {
+  padding: 7px;
+  text-align: justify;
+}
+
+.whats-the-global-game-jam, .how-do-i-sign-up{
+  max-width: 80%;
 }
 
 .register {
@@ -231,6 +264,3 @@ body {
   z-index: 0;
 }
 
-div, img, table {
-  max-width: 100%;
-}
