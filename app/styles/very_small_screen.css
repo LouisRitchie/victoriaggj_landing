@@ -1,2 +1,9 @@
 @media (max-width: 767px) {
+  #section0, #section1, #section2, #section3 {
+    background-color: blue;
+  }
+
+  body {
+    font-size: 10px;
+  }
 }

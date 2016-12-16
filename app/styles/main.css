@@ -31,29 +31,34 @@ body {
   background-color: #3d4143;
 }
 
-
-
-
-
-
-
-
-
-
-
-
 .hero {
   flex: 1 1 auto;
-  margin: 0.4em;
+
   display: flex;
   flex-flow: column nowrap;
   justify-content: space-between;
   align-items: center;
   text-align: center;
+
+  margin: 0.4em;
 }
 
-.images {
+.hero-uvgd-presents {
+  flex: 1 4 auto;
+}
+
+.hero-ggj-logo {
+  flex: 5 1 auto;
+}
+
+.hero-sponsored-by {
   flex: 1 1 auto;
+
+}
+
+.hero-sponsor-logos {
+  flex: 1 1 auto;
+
   display: flex;
   flex-flow: row nowrap;
   justify-content: space-around;
@@ -61,37 +66,9 @@ body {
   align-self: stretch;
 }
 
-.logo-kano, .logo-uvgd, .logo-igda, .logo-codename {
-}
-.logo-kano:hover, .logo-uvgd:hover, .logo-igda:hover, .logo-codename:hover {
-}
-.logo-codename {
-  width: 511px;
-  height: 153px;
-}
-.logo-kano {
-  width: 280px;
-  height: 80px;
-}
-.logo-igda {
-  width: 280px;
-  height: 80px;
-}
-.logo-uvgd {
-  width: 210px;
-  height: 60px;
-  margin-bottom: -30px;
-}
 .logo {
   margin-left: 1em;
 }
-
-
-
-
-
-
-
 
 .about {
   font-size: 0.9em;
@@ -107,7 +84,7 @@ body {
 }
 
 .register {
-  flex: 0 0 0;
+  flex: 0 1 auto;
   display: flex;
   flex-flow: column nowrap;
   justify-content: center;
@@ -163,6 +140,7 @@ body {
 
 
 .tg {
+
   font-size: 0.6em;
   margin: 20px;
   color: white;
@@ -220,6 +198,14 @@ body {
   position: relative;
 }
 
+.contact p {
+  background-color: rgba(50, 50, 50, 0.7);
+  padding: 0.8em;
+  border: 2px outset #1E6999;
+  border-radius: 9px;
+  z-index: 2;
+}
+
 .press-kit {
   height: 76px;
   width: 319px; 
@@ -242,4 +228,9 @@ body {
   position: absolute;
   bottom: 0px;
   right: 0px;
+  z-index: 0;
+}
+
+div, img, table {
+  max-width: 100%;
 }
