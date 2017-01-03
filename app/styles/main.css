@@ -1,6 +1,6 @@
 body {
   font-family: 'Press Start 2P', cursive;
-  font-size: 22px;
+  font-size: 16px;
   line-height: 1.5em;
   color: white;
 }
@@ -23,6 +23,7 @@ div, img, table {
 
 #section1{
   background-color: #252829;
+  height: 100%;
 }
 
 #section2{
@@ -35,7 +36,17 @@ div, img, table {
   background-color: #3d4143;
 }
 
+
+
+
+
+
+
+
+
+
 .hero {
+  overflow: hidden;
   flex: 1 1 auto;
 
   display: flex;
@@ -87,7 +98,20 @@ div, img, table {
   margin-left: 1em;
 }
 
+
+
+
+
+
+
+
+
+
+
+
 .about {
+  overflow: hidden;
+  max-height: 100%
   font-size: 0.9em;
 
   display: flex;
@@ -112,8 +136,24 @@ div, img, table {
   text-align: justify;
 }
 
-.whats-the-global-game-jam, .how-do-i-sign-up{
+.register {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.whats-the-global-game-jam {
+  max-width: 962px;
+  max-height: 270px;
+  height: auto;
+  width: auto;
   max-width: 80%;
+  flex: 0 1 auto;
+}
+
+.how-do-i-sign-up{
+
 }
 
 .register {
@@ -145,7 +185,23 @@ div, img, table {
   color: #009CFF;
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .schedule {
+  font-size: 22px;
+  overflow: hidden;
   display: flex;
   flex-flow: column nowrap;
   justify-content: space-around;
@@ -230,6 +286,7 @@ div, img, table {
 }
 
 .contact {
+  overflow: hidden;
   font-size: 0.9em;
   flex: 1 1 auto;
   display: flex;
