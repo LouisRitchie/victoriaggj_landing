@@ -136,11 +136,9 @@ div, img, table {
   text-align: justify;
 }
 
-.register {
+.about-button-container {
   display: flex;
-  flex-flow: column nowrap;
-  justify-content: space-around;
-  align-items: center;
+  flex-flow: row nowrap;
 }
 
 .whats-the-global-game-jam {
@@ -168,12 +166,11 @@ div, img, table {
   color: green;
 }
 
-.register-link {
-  underscore: none;
+.button-link {
+  flex: 0 1 auto;
   color: black;
-  font-size: 2em;
-  margin: 25px;
-  padding: 25px;
+  margin: 10px;
+  padding: 10px;
   -moz-border-radius: 3px;
   -webkit-border-radius: 3px;
   border-radius: 3px;
@@ -181,7 +178,7 @@ div, img, table {
   background: #FFF024;
 }
 
-.register-link:hover {
+.button-link:hover {
   color: #009CFF;
 }
 
@@ -205,13 +202,18 @@ div, img, table {
   display: flex;
   flex-flow: column nowrap;
   justify-content: space-around;
-  align-items: center;
+  align-items: flex-start;
 }
 
 @media (max-width: 910px) {
   .schedule {
     font-size: 10px;
   }
+}
+
+.schedule p {
+  font-size: 0.5em;
+  margin-left: 12px;
 }
 
 #timer {
@@ -226,9 +228,6 @@ div, img, table {
   font-size: 0.7em;
 }
 
-#timer div div {
-}
-
 .schedule-heading {
   min-height: 40px;
   font-size: 2.5em;
@@ -236,6 +235,10 @@ div, img, table {
 
 .schedule-starts-in {
   align-self: flex-start;
+}
+
+.schedule-links div {
+  padding: 12px 0; 
 }
 
 .tg {
@@ -284,6 +287,15 @@ div, img, table {
 .tg .tg-yw4l {
   vertical-align:top;
 }
+
+
+
+
+
+
+
+
+
 
 .contact {
   overflow: hidden;
