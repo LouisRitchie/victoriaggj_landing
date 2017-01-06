@@ -1,7 +1,0 @@
-#!/bin/bash
-
-REPO="~/repos/ggj"
-DEST="/var/www/victoriaggj.com/html"
-
-rm -rf $DEST/*
-cp -r ~/repos/ggj/* $DEST

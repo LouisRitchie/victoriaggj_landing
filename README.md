@@ -3,10 +3,8 @@
 
 ### [victoriaggj.com](http://victoriaggj.com)
 
-This is the landing page for the 2017 Global Game Jam hosted at uvic. If you want to add something to the page, you can make a pull request.
+This is the repo that holds the code for the GGJ Victoria 2017 Landing site.
 
-`git clone https://github.com/louisritchie/victoriaggj_landing`
-`cd victoriaggj && npm i`
+You'll need to `npm install` to get everything working, then just open `index.html`.
 
-# Call for PRs
-Check out the issues page to see what needs to be done
+You can write code for it if ya want. Send a PR.
