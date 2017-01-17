@@ -156,6 +156,19 @@ div, img, table {
   flex: 0 1 auto;
 }
 
+.blurb-items {
+  flex: 2 0 auto;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+}
+
+.blurb-items .wrapper {
+  padding: 10px 5px;
+  display: flex;
+  flex-flow: column nowrap;
+}
+
 .how-do-i-sign-up{
 
 }
