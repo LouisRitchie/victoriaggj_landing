@@ -86,6 +86,10 @@ div, img, table {
   padding: 1em;
 }
 
+.hero-logo-starfish, .hero-logo-echosec, .hero-logo-llamazoo {
+  width: 100px;
+}
+
 .hero-logo-kano, .hero-logo-igda {
   width: 200px;
 }
