@@ -6,7 +6,32 @@
 This is the repo that holds the code for the GGJ Victoria 2017 Landing site,
 as well as the code for the thank-you pages that are being sent to the sponsors.
 
-You'll need to `npm install` to get everything working, then just open `index.html`.
 
-There are steps you must take to bundle the thank-you pages with Gulp. Those instructions 
-can be found [here](https://github.com/louisritchie/gamejam-thank-you-pages).
+## Dependencies
+
+1. [Font Awesome](https://fortawesome.github.io/Font-Awesome/)     --> Icon font set.
+2. [fullPage.js](http://alvarotrigo.com/fullPage/)      --> The full-screen scrolling engine.
+3. [jQuery](https://jquery.com/)           --> Used for manipulating DOM, also as the dependency of fullPage.js.
+4. [Normalize.css](https://necolas.github.io/normalize.css/)    --> Used for CSS resets.
+5. [Velocity.js](http://julian.com/research/velocity/)      --> The animation engine.
+
+1. Install dependencies:
+
+        npm install
+
+2. Start gulp task:
+
+        gulp dev   
+       
+        
+## Getting Ready For Production
+
+1. Minimize files using gulp task:
+
+        gulp prod
+
+2. Upload files to your server and run:
+
+        npm install --production
+        
+   Add `--production` tag to only install dependencies that are needed for production environment.
