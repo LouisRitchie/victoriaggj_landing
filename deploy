@@ -1,0 +1,6 @@
+#!/bin/bash
+
+gulp prod
+mv node_modules ../nodemodules.tmp
+scp -r ./* tito@deppth.me:/var/www/victoriaggj.com/html/
+mv ../nodemodules.tmp ./node_modules
