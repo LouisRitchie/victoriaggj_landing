@@ -8,13 +8,14 @@
         height: 100%;
         margin: 0;
         color: black;
-        font-size: 1rem;
+        font-size: 0.6rem;
         white-space: nowrap;
         display: flex;
         flex-flow: column nowrap;
         justify-content: space-between;
         align-items: center;
     }
+
     p {
       text-align: center;
       display: flex;
@@ -22,13 +23,17 @@
       justify-content: center;
       align-content: center;
     }
+
     #slideshow { 
         margin: 50px auto; 
         position: relative; 
-        width: 420px; 
-        height: 340px; 
+        min-width: 420px; 
+        min-height: 340px; 
+        width: auto; 
+        height: auto; 
         padding: 10px; 
         box-shadow: 0 0 20px rgba(0,0,0,0.4); 
+        display: block;
     }
 
     #slideshow > div { 
@@ -44,6 +49,6 @@
     }
 
     br {
-      margin-top: 15px;
+      margin-top: 10px;
     }
 }
